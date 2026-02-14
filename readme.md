@@ -36,7 +36,7 @@ This project performs simple arithmetic operations and helps understand DOM mani
 * Basic calculator logic using JavaScript
 
 ## Live URL
-
+https://juhaib-husain71.github.io/Calculator/
 
 ## 👨‍💻 Author
 
