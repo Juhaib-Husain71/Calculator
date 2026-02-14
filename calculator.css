@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    align-items: center;
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 70%;
+    width: 25%;
+    padding: 30px;
+}
+
+.screen{
+    height: 15%;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.8rem;
+    /* padding: 17px; */
+    font-size: 1.5rem;
+    text-align: right;
+    line-height: 4rem;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 25px;
+    border-radius: 0.7rem;
+    height: 60px;
+    width: 60px;
+}
+
+.last-btn{
+    background-color: #a6d2d5;
+}
+.first-btn{
+    background-color: #D681FF;
+}
+
+.double{
+    flex-basis: 46%;
+}
+.triple{
+    flex-basis: 73%;
+}
+
+
+/* Phone styling */
+@media (max-width: 769px){
+    .wrapper{
+        width: 85%;
+    }
+}
