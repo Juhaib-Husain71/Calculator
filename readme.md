@@ -22,11 +22,9 @@ This project performs simple arithmetic operations and helps understand DOM mani
 * CSS
 * JavaScript
 
-## ▶️ How to Run
+## 📸 Preview
 
-1. Download or clone the project.
-2. Open `index.html` in your browser.
-3. Start calculating!
+![Calculator preview](images/preview-calc.png)
 
 ## 📘 What I Learned
 
